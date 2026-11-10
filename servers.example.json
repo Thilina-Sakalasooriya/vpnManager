@@ -1,0 +1,20 @@
+{
+  "servers": [
+    {
+      "name": "example-nyc",
+      "protocol": "openvpn",
+      "config": "./configs/example-nyc.ovpn",
+      "country": "US",
+      "city": "New York",
+      "tags": ["us", "example"]
+    },
+    {
+      "name": "example-home",
+      "protocol": "wireguard",
+      "config": "./configs/example-home.conf",
+      "country": "CA",
+      "city": "Toronto",
+      "tags": ["home", "example"]
+    }
+  ]
+}
